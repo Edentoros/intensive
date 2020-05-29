@@ -6,7 +6,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
-
+* {
+    -webkit-overflow-scrolling: touch;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
